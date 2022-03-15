@@ -1,0 +1,4 @@
+*.yml
+complex_watcher/config.yml
+.spyproject/
+__pycache__
