@@ -25,7 +25,8 @@ app:
         host: mq-host
         user: auser 
         pass: ww         
-        queue: test```
+        queue: test
+```
 
 ## run
 execute `complex_watcher`
