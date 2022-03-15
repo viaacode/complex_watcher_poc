@@ -1,6 +1,12 @@
 # complex_watcher_poc
 
-- config example:
+## install
+- python setup.py install
+
+## config 
+- create a config.yml file 
+
+- config.yml example:
 ```
 viaa:
   logging:
@@ -20,3 +26,6 @@ app:
         user: auser 
         pass: ww         
         queue: test```
+
+## run
+execute `complex_watcher`

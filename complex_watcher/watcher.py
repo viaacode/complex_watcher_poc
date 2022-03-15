@@ -14,7 +14,8 @@ Target:
 @author: tina
 """
 import os
-#sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from string import Template
 import inotify
 import inotify.adapters

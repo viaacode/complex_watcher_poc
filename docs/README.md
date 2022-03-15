@@ -2,7 +2,18 @@
 
 > Auto-generated documentation index.
 
-- config example:
+Full Complex_watcher project documentation can be found in [Modules](MODULES.md#complex_watcher-modules)
+
+- [complex_watcher_poc](#complex_watcher_poc)
+  - [Complex_watcher Modules](MODULES.md#complex_watcher-modules)
+
+## install
+- python setup.py install
+
+## config 
+- create a config.yml file 
+
+- config.yml example:
 ```
 viaa:
   logging:
@@ -23,7 +34,5 @@ app:
         pass: ww         
         queue: test```
 
-Full Complex_watcher project documentation can be found in [Modules](MODULES.md#complex_watcher-modules)
-
-- [complex_watcher_poc](#complex_watcher_poc)
-  - [Complex_watcher Modules](MODULES.md#complex_watcher-modules)
+## run
+execute `complex_watcher`
