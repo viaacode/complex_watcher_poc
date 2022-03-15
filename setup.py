@@ -35,6 +35,7 @@ setup(name='complex_watcher',
               'retry==0.9.2',
               'mako',
               'markdown >= 3.0',
+              'inotify==0.2.9',
               'pytest==5.4.1',
               'pytest-cov==2.8.1'
       ],
