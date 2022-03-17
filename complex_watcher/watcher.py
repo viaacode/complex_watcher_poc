@@ -41,7 +41,7 @@ fxpTemplate = Template("""
                                "destination_file": "$Filename",
                                "destination_host": "$Dhost",
                                "destination_password": "$Dpass",
-                               "destination_path": "$Dpath,
+                               "destination_path": "$Dpath",
                                "destination_user": "$Duser",
                                "source_file": "$Sfile",
                                "source_host": "$Shost",

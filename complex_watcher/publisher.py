@@ -48,7 +48,7 @@ class PubMsg():
         self.msg = msg
         self.publish_channel.queue_declare(queue=self.queue, passive=False,
                                            durable=True, exclusive=False,
-                                           auto_delete=False)
+                                           auto_delete=False,arguments={"x-max-priority": 10})
     def __call__(self):
         if self.queue is not None\
                         and self.topic_type is not None:
